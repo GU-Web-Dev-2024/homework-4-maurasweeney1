@@ -3,16 +3,20 @@ header, footer{
     font-family: Georgia;
     background-color: whitesmoke;
 }
+
+/* applying flex box and styling to candy boxes */
 .collection {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    align-items: center;
     margin: 20px;
 }
 
 .candy {
     border: 2px solid black;
     width: 200px;
+    height: 200px;
     padding: 20px;
     margin: 10px; 
     text-align: center;
@@ -32,12 +36,16 @@ body {
     background-position: center;
 }
 
+/* hover elements */
+
 .candy:hover {
     background-color: rgb(255, 255, 255, .5);
     color: rgb(150, 25, 25);
     border-color: rgb(100, 75, 100, .5);
+    transform: scale(1.05); 
 }
 
 .candy img:hover{
-    transform: scale(1.05); 
+    transform: scale(1.1); 
+    transition: transform 0.3s ease; 
 }
