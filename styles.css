@@ -1,0 +1,26 @@
+header, footer{
+    color: rgb(125, 25, 25);
+    background-color: whitesmoke;
+}
+.collection {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.candy {
+    border: 2px solid black;
+    width: 200px;
+    padding: 20px;
+    margin: 10px; 
+    text-align: center;
+    background-color: rgb(100, 75, 100);
+}
+
+.candy p {
+    font-size: 16px;
+    padding: 20px;
+}
+
+body {
+    background-image: url('background.png'); 
+}
